@@ -1,0 +1,9 @@
+{
+    "dart.flutterSdkPath": "/home/ahmed/snap/flutter/common/flutter",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    
+}
