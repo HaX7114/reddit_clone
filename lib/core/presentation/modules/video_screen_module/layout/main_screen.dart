@@ -26,10 +26,8 @@ class MainScreen extends StatelessWidget {
                   backgroundColor: AppColors.blackColor,
                   flexibleSpace: FlexibleSpaceBar(
                     background: MouseRegion(
-                      onEnter: (event) =>
+                      onHover: (event) =>
                           videoScreenCubit.showVideoDataContainer(),
-                      onExit: (event) =>
-                          videoScreenCubit.hideVideoDataContainer(),
                       child: const VideoWidget(),
                     ),
                   ),

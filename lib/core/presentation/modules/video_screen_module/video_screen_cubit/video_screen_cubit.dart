@@ -68,6 +68,7 @@ class VideoScreenCubit extends Cubit<VideoScreenCubitStates> {
   showVideoDataContainer() {
     videoDataContainerIsShown = true;
     emit(ShowVideoDataContainerScreenState());
+    hideVideoDataContainer();
   }
 
   hideVideoDataContainer() async {
